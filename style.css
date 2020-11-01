@@ -1,0 +1,191 @@
+body{
+    background-image: url("creme.png");
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+   
+.images{ 
+    width: 650px;
+    position: relative;
+    top: -250px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.header-text{
+    font-size: 130pt;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: -390px;
+    text-align: center;
+    letter-spacing: -18px;
+}
+
+.text{
+    margin: auto;
+    width: 25%;
+    border: 5px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    bottom: 490px;
+    left: 50px;
+    color: black;
+}
+
+.headline{
+    margin: auto;
+    width: 25%;
+    border: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    bottom: 430px;
+    left: 50px;
+    color: black;
+}
+
+.navigation{
+
+background-color: black;
+position: fixed;
+right: 0;
+top: 0;
+border-radius: 10px 10px 10px 10px;
+padding: 5px 10px 5px 5px;
+}
+
+.rectangle{
+    width: 800px;
+    margin: -10px;
+}
+
+
+a:hover{
+color: rgb(223, 140, 240);
+}
+
+.weiteres{
+    margin: auto;
+    width: 15%;
+    border: 5px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    bottom: 375px;
+    right: 250px;
+    color: black;
+}
+
+.portrait{
+    position: relative;
+    bottom: 750px;
+    left: 150px;
+}
+
+.figure {
+    margin: 0;
+    position:relative;
+}
+
+
+#kontakt{
+    color: rgb(223, 140, 240);
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 210px;
+}
+
+.input{
+    background: white;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    width: 85%;
+    letter-spacing: 1.5px;
+    height: 45;
+    font-size: 0.8rem;
+    display: block;
+    padding: 8px 20px;
+    margin: 0 0 9px;
+    text-align: left;
+}
+
+.datenschutz{
+    font-size: 9pt;
+    color: gray;
+    position: relative;
+    text-align: left;
+    margin-left: 210px;
+}
+
+.absenden{
+    font-size: 9pt;
+    color: white;
+    background: gray;
+    width: 55px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 210px;
+}
+
+.mail{
+    color: #2238b4;
+}
+
+.social{
+    position: absolute;
+    top: 340px;
+    margin-left: 48.3%;
+    margin-top: 2.5%;
+    z-index: 9999;
+}
+
+
+a.active{
+    color: rgb(223, 140, 240);
+    text-decoration: underline;
+}
+
+a.activepage{
+    color: rgb(223, 140, 240);
+    font-weight: bolder;
+}
+
+#n1{
+border-right: solid 1px white;
+}
+
+#n2{
+border-right: solid 1px white;
+}
+
+/*Es tut mir leid den Teil hab ich nicht richtig verstanden*/
+@media screen and (min-width:320px){
+    h1{
+        width: auto;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (min-width:768px){
+    h1{
+        width:auto;
+        height: auto;
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:1200px){
+    h1{
+        width: auto;
+        height: auto;
+        font-size: 2rem;
+    }
+}
